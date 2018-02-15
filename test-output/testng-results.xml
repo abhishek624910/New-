@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Hiii]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80148" started-at="2018-02-10T21:36:35Z" finished-at="2018-02-10T21:37:55Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="80148" started-at="2018-02-10T21:36:35Z" finished-at="2018-02-10T21:37:55Z">
+      <class name="com.basic.para.Para2">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.basic.para.Para2@51081592]" name="preCondition" is-config="true" duration-ms="77979" started-at="2018-02-11T03:06:35Z" finished-at="2018-02-11T03:07:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://demo.actitime.com/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:com.basic.para.Para2@51081592]" name="m1" duration-ms="27" started-at="2018-02-11T03:07:53Z" finished-at="2018-02-11T03:07:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hiii]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.basic.para.Para2@51081592]" name="postCondition" is-config="true" duration-ms="2114" started-at="2018-02-11T03:07:53Z" finished-at="2018-02-11T03:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.basic.para.Para2 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
